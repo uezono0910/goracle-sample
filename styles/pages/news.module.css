@@ -1,0 +1,291 @@
+.top_wrapper {
+  background-color: #ffffff;
+}
+
+.top_inner {
+  width: auto;
+  padding: 170px 10vw 60px 10vw;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top_item {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.top_item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.title_box {
+  z-index: 1;
+  position: relative;
+  height: 50%;
+  width: 50%;
+  border-radius: 10px;
+  background-color: #e95513;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.title_item {
+  z-index: 100;
+  position: absolute;
+  height: 60%;
+  width: 175%;
+  left: 0;
+  margin-left: 25%;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.title_item h2 {
+  font-size: 3vw;
+  font-weight: 700;
+}
+
+.title_item h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.news_inner {
+  width: auto;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 70px 40px;
+  display: flex;
+}
+
+.news_mein {
+  width: 70%;
+}
+
+.news_list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news_item {
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  padding-right: 5vw;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news_img {
+  width: 100%;
+  height: auto;
+}
+
+.news_img:hover {
+  opacity: 0.8;
+}
+
+.news_img img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.news_title {
+  max-width: 150px;
+  margin-top: 21px;
+  cursor: pointer;
+}
+
+.news_title h2 {
+  line-height: 19px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.news_title h2:hover {
+  opacity: 0.8;
+}
+
+.news_text {
+  max-width: 200px;
+  margin-top: 17px;
+  display: flex;
+}
+
+.news_date {
+  line-height: 19px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  padding-right: 12px;
+  color: #000;
+}
+
+.news_btn {
+  width: 86px;
+  line-height: 19px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 10px;
+  color: #e95513;
+  border: solid 1px #e95513;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+}
+
+.news_btn:hover {
+  color: #ffffff;
+  background-color: #e95513;
+}
+
+.news_nav {
+  width: 30%;
+  padding-left: 5vw;
+}
+
+.category {
+  width: 100%;
+}
+
+.articles {
+  width: 100%;
+  margin-top: 65px;
+}
+
+.nav_title {
+  display: flex;
+  align-items: center;
+}
+
+.nav_title span {
+  height: 24px;
+  width: 10px;
+  border-radius: 17px;
+  background-color: #e95513;
+  margin-right: 12px;
+}
+
+.nav_title h2 {
+  line-height: 19px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.nav_menu {
+  padding-top: 12px;
+}
+
+.nav_item {
+  border-bottom: solid 1px #cccccc;
+}
+
+.nav_text {
+  line-height: 19px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 22px;
+  color: #000;
+  cursor: pointer;
+}
+
+.nav_item:hover {
+  background-color: #fff4f3;
+}
+
+@media (max-width: 1200px) {
+  .news_inner {
+    padding: 100px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .top_inner {
+    padding: 15vh 10vw 0 10vw;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .top_item {
+    width: 100%;
+    height: auto;
+  }
+
+  .top_text {
+    max-width: 300px;
+  }
+
+  .title_box {
+    height: 20vh;
+  }
+
+  .title_item h2 {
+    font-size: 2.4rem;
+  }
+
+  .title_item h3 {
+    font-size: 1.2rem;
+  }
+
+  .news_inner {
+    margin: 0 auto;
+    padding: 15px 16px;
+    flex-direction: column;
+  }
+
+  .news_mein {
+    width: 100%;
+  }
+
+  .news_list {
+    flex-direction: column;
+  }
+
+  .news_item {
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .news_title {
+    line-height: 19px;
+    font-size: 1.4rem;
+  }
+
+  .news_date {
+    line-height: 19px;
+    font-size: 1.2rem;
+  }
+
+  .news_nav {
+    width: 100%;
+    padding: 50px 0 0 0;
+  }
+
+  .articles {
+    margin-top: 40px;
+  }
+
+  .nav_title h2 {
+    font-size: 1.4rem;
+  }
+
+  .nav_text {
+    font-size: 1.2rem;
+    padding: 15px 0 15px 15px;
+  }
+}

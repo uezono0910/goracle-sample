@@ -1,0 +1,193 @@
+.footer_inner {
+  width: 100%;
+}
+
+.footer_items {
+  width: auto;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 50px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.goracle {
+  width: 300px;
+}
+
+.goracle_item {
+  max-width: 180px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.goracle_img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.goracle_list {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.goracle_menu p {
+  line-height: 22px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.goracle_menu:last-child {
+  margin: 0;
+}
+
+.goracle_menu:hover {
+  opacity: 0.8;
+}
+
+.goracle_menu p {
+  color: #000;
+}
+
+.partner {
+  width: 20vw;
+  padding: 19px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partner h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.partner_item {
+  max-width: 200px;
+  margin-top: 30px;
+}
+
+.partner_item img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.facebook {
+  width: 20vw;
+  margin-top: 19px;
+  text-align: center;
+}
+
+.facebook h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.facebook_item {
+  max-width: 300px;
+  height: auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.copyright {
+  height: 96px;
+  width: 100%;
+  background-color: #f5f5f5;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.copyright p {
+  line-height: 17px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+  .footer_items {
+    padding: 50px 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer_inner {
+    width: 100%;
+  }
+
+  .footer_items {
+    padding: 30px 16px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .goracle {
+    max-width: 400px;
+    width: 100%;
+  }
+
+  .goracle_list {
+    margin-top: 20px;
+  }
+
+  .goracle_menu {
+    line-height: 18px;
+    font-size: 1.2rem;
+    margin-right: 15px;
+  }
+
+  .partner {
+    width: 100%;
+    margin-top: 60px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .partner h2 {
+    font-size: 2rem;
+  }
+
+  .partner_item {
+    width: 180px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .facebook {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .facebook h2 {
+    font-size: 2rem;
+  }
+
+  .facebook_item {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .copyright {
+    height: 60px;
+  }
+
+  .copyright p {
+    line-height: 15px;
+    font-size: 1rem;
+  }
+}
